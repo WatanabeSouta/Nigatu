@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6842185649110407731
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!114 &-3308428328612735075
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -22,6 +35,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Trimsheet2_WindowMask
   m_Shader: {fileID: -6465566751694194690, guid: bbf677af661a5e9459a4b99467561977, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -30,6 +45,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -57,7 +73,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8d8e557098e549740aa66c71ab513fac, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_0e7e09a0af89443595fa79b9fdbd5a74_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8d8e557098e549740aa66c71ab513fac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_17b777233d83455bb958c8b0719526cd_Texture_1:
+        m_Texture: {fileID: 2800000, guid: eb550d4b491447f4f8bf1a24b39cea9e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_17b777233d83455bb958c8b0719526cd_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: eb550d4b491447f4f8bf1a24b39cea9e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -77,10 +101,24 @@ Material:
         m_Texture: {fileID: 2800000, guid: ef2940305d97c5141aba335fa15b20e4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors:
     - _Dirt: {r: 0.2264151, g: 0.18132551, b: 0.13755785, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
