@@ -41,3 +41,6 @@ dist/
 *.gitlog
 .gitconfig
 *.git-credentials
+
+# Visual Studioのインデックスファイルを無視
+.vs/
