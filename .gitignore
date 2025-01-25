@@ -9,35 +9,19 @@ dist/
 # IDEの設定ファイル
 .vscode/
 .idea/
+*.csproj
+*.sln
+*.unityproj
+*.pidb
 
-# 環境設定
-.env
-# 100MB超の大きなファイルを無視
-/large_file.zip
-/binary_file.dat
 # Unity-specific
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uild/
-[Bb]uilds/
+[Bb]uild*/
 [Ll]ogs/
 [Mm]emoryCaptures/
-# Asset metadata should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
-
-# Visual Studio / MonoDevelop / Rider
-.vscode/
-.idea/
-*.csproj
-*.pidb
-*.suo
-*.user
-*.userprefs
-*.unityproj
-*.booproj
-*.sln
-*.sln.*
 
 # Generated files
 *.apk
@@ -45,9 +29,15 @@ dist/
 *.unitypackage
 *.pdb
 *.mdb
-*.opendb
-*.VC.db
+
+# 環境設定
+.env
 
 # Exclude large temporary files
-.DS_Store
-Thumbs.db
+/large_file.zip
+/binary_file.dat
+
+# git コマンド履歴や一部ファイルを無視
+*.gitlog
+.gitconfig
+*.git-credentials
